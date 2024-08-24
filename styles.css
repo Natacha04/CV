@@ -1,0 +1,84 @@
+/* header*/
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  color: rgb(233, 233, 233);
+  background-color: #6E7350;
+  font-weight: bold;
+  padding: 0.7rem;
+  min-width: 445px;
+}
+
+header h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+  text-align: center;
+}
+
+header h2 {
+  text-align: center;
+}
+
+/* main */
+body {
+  place-content: center;
+  margin: auto;
+  min-height: 100px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.info {
+  background-color: #A3A883;
+  padding: 1rem;
+}
+
+.ens {
+  background-color: #f9f6eb;
+  padding: 1rem;
+}
+
+h2, h3, h4, p {
+  margin-left: 1rem;
+}
+
+.dev, .daq, .lycee, .college, .vend, .dog, .duplex, .croix {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.info h4 {
+  text-decoration: underline;
+}
+
+/* media */
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+  h5 {
+    font-size: 8px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .ens {
+    width: 274px;
+  }
+}
